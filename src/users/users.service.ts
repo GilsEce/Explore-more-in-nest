@@ -5,7 +5,7 @@ import { Mac } from './interfaces/mac.interface';
 @Injectable()
 export class UsersService {
     getMacAdd():object {
-        const macAddress:Mac = {mac_address:getMAC()};
+        const macAddress:Mac = { mac_address:getMAC() };
         return macAddress;
     }
 }

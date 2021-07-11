@@ -1,5 +1,5 @@
 import { Controller, Get } from '@nestjs/common';
-import { UsersService } from 'src/users/users.service';
+import { UsersService } from 'src/modules/users/users.service';
 import { ActionsService } from './services/actions/actions.service';
 import { DramaService } from './services/drama/drama.service';
 
